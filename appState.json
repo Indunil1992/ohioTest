@@ -1,0 +1,106 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8b3cee51-1421-4b5e-85e6-5bb096adc92d": {
+        "id": "8b3cee51-1421-4b5e-85e6-5bb096adc92d",
+        "parent": null,
+        "name": "ohioTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "8cc9f978-7273-4e4b-9aa4-be6399be49f6"
+        ],
+        "isRemovable": false,
+        "filePath": "ohioTest"
+      },
+      "8cc9f978-7273-4e4b-9aa4-be6399be49f6": {
+        "id": "8cc9f978-7273-4e4b-9aa4-be6399be49f6",
+        "parent": "8b3cee51-1421-4b5e-85e6-5bb096adc92d",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ohioTest/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast2myapiany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "8b3cee51-1421-4b5e-85e6-5bb096adc92d",
+    "openFiles": [
+      "8cc9f978-7273-4e4b-9aa4-be6399be49f6"
+    ],
+    "currentFileId": "8cc9f978-7273-4e4b-9aa4-be6399be49f6",
+    "resources": {
+      "apigusEast2myapiany": {
+        "name": "apigusEast2myapiany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-2",
+          "apiMode": 1,
+          "apiName": "myapi",
+          "apiId": "8facv6bud4",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "5z5yy2ayue",
+          "existingResources": {
+            "/": "5z5yy2ayue"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "5z5yy2ayue",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "ohioTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1579679486532
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ohioTest",
+      "url": "https://github.com/Indunil1992/ohioTest"
+    }
+  }
+}
